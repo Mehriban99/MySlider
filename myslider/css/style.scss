@@ -1,0 +1,33 @@
+#slider{
+    position: relative;
+    overflow: hidden;
+
+    ul{
+        position: relative;
+        width: 960px;
+        height: 600px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li{
+            position: relative;
+            display: block;
+            float: left;
+            width: 960px;
+            height: 600px;
+        }
+    }
+    #left,#right{
+        padding: 10px 12px;
+        border: none;
+        background-color: red;
+        font-size: 14px;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        z-index: 99;
+    }
+    #right{
+        right: 15px;
+    }
+}
